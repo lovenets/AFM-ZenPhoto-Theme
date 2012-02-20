@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:scripts xmlns:p="http://www.afmsoftware.com/scripts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.afmsoftware.com/scripts scripts.xsd ">
+  <p:scriptpath name="JQUERY" path="js/jQuery" />
+  <p:scriptpath name="JUI" path="js/jQuery/ui" ></p:scriptpath>
+  <p:scriptpath name="JTOOLS" path="js/jQuery/tools"></p:scriptpath>
+  <p:scriptpath name="TOOLS" path="toolbox/js"></p:scriptpath>
+  <p:scriptpath name="BASE" path="js"></p:scriptpath>
+  <p:scriptpath name="PAGEBUILDER" path="pageBuilder/js"></p:scriptpath>
+    
+  <p:csspath name="JUI" path="js/jQuery/themes/base" />
+  <p:csspath name="JTOOLS" path="js/jQuery/tools" />
+
+	<p:cssfile pathId="JTOOLS" name="slideshow" codefile="tabs-slideshow.css"/>
+	<p:cssfile pathId="JUI" name="all" codefile="jquery.ui.all.css"/>
+  <p:cssfile pathId="JUI" name="core" codefile="jquery.ui.core.css"/>
+  <p:cssfile pathId="JUI" name="button" codefile="jquery.ui.button.css"/>
+  <p:cssfile pathId="JUI" name="dialog" codefile="jquery.ui.dialog.css" />
+  <p:cssfile pathId="JUI" name="theme" codefile="jquery.ui.theme.css" />
+  <p:cssfile pathId="JUI" name="slider" codefile="jquery.ui.slider.css" />
+
+	<p:script version="1.6.1" shortname="JQUERY" codefile="jquery.js" pathId="JQUERY" />
+	<p:script version="1.2.5" shortname="JTOOLS" codefile="jquery.tools.min.js" pathId="JTOOLS">
+    	<p:dependency id="JQUERY"/>
+    	<p:css id="slideshow" />
+	</p:script>
+  <p:script version="1.8.13" shortname="UICORE" codefile="jquery.ui.core.js" pathId="JUI">
+  	<p:css id="all" />
+  	<p:css id="core" />
+  </p:script>
+  <p:script version="1.8.13" shortname="UIWIDGET" codefile="jquery.ui.widget.js" pathId="JUI" ></p:script>
+  <p:script version="1.8.13" shortname="UIMOUSE" codefile="jquery.ui.mouse.js" pathId="JUI">
+    <p:dependency id="JQUERY"/>
+  	<p:dependency id="UIWIDGET" />
+  </p:script>
+  <p:script codefile="jquery.ui.button.js" pathId="JUI" shortname="UIBUTTON" version="1.8.13">
+    <p:dependency id="JQUERY"/>
+    <p:dependency id="UICORE"/>
+    <p:dependency id="UIWIDGET"/>
+  </p:script>
+  <p:script codefile="jquery.ui.position.js" pathId="JUI" shortname="UIPOSITION" version="1.8.13">
+  </p:script>
+  <p:script codefile="jquery.ui.resizable.js" pathId="JUI" shortname="UIRESIZABLE" version="1.8.13">
+    <p:dependency id="JQUERY"/>
+    <p:dependency id="UICORE"/>
+    <p:dependency id="UIWIDGET"/>
+    <p:dependency id="UIMOUSE"/>
+  </p:script>
+  <p:script codefile="jquery.ui.draggable.js" pathId="JUI" shortname="UIDRAGGABLE" version="1.8.13">
+    <p:dependency id="JQUERY"/>
+    <p:dependency id="UICORE"/>
+    <p:dependency id="UIWIDGET"/>
+    <p:dependency id="UIMOUSE"/>
+  </p:script>
+  <p:script codefile="jquery.ui.droppable.js" pathId="JUI" shortname="UIDROPPABLE" version="1.8.13">
+    <p:dependency id="JQUERY"/>
+    <p:dependency id="UICORE"/>
+    <p:dependency id="UIWIDGET"/>
+    <p:dependency id="UIMOUSE"/>
+    <p:dependency id="UIDRAGGABLE"/>
+  </p:script>
+  <p:script codefile="jquery.ui.dialog.js" pathId="JUI" shortname="UIDIALOG" version="1.8.13">
+    <p:dependency id="JQUERY"/>
+    <p:dependency id="UICORE"/>
+    <p:dependency id="UIWIDGET"/>
+    <p:dependency id="UIMOUSE"/>
+    <p:dependency id="UIDRAGGABLE"/>
+    <p:dependency id="UIBUTTON" />
+    <p:dependency id="UIPOSITION" />
+    <p:dependency id="UIRESIZABLE" />
+    <p:css id="button"/>
+    <p:css id="dialog" />
+    <p:css id="theme"/>
+  </p:script>
+  <p:script codefile="jquery.ui.slider.js" pathId="JUI" shortname="UISLIDER" version="1.8.13">
+    <p:dependency id="JQUERY"/>
+    <p:dependency id="UICORE"/>
+    <p:dependency id="UIWIDGET"/>
+    <p:dependency id="UIMOUSE"/>
+    <p:css id="theme"/>
+    <p:css id="slider"/>
+  </p:script>
+  <p:script codefile="common.js" pathId="BASE" 
+  	shortname="COMMON" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="popup.js" pathId="BASE"
+  	shortname="POPUP" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="popmenu.js" pathId="BASE"
+  	shortname="POPMENU" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="textObject.js" pathId="PAGEBUILDER" shortname="TEXTOBJ" version="1.0" flatten="true"></p:script>
+  <p:script codefile="fontObject.js" pathId="PAGEBUILDER" shortname="FONTOBJ" version="1.0" flatten="true"></p:script>
+  <p:script codefile="color.js" pathId="BASE"
+  	shortname="COLOR" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="Mouser.js" pathId="BASE"
+  	shortname="MOUSER" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="upload.js" pathId="TOOLS"
+  	shortname="FILEUPLOAD" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="tools.js" pathId="TOOLS"
+  	shortname="TOOLS" version="1.0" flatten="true">
+  </p:script>
+  <p:script codefile="excanvas.compiled.js" pathId="BASE"
+  	shortname="EXCANVAS" version="1.0" conditional="IE">
+  </p:script>
+</p:scripts>

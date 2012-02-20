@@ -1,0 +1,220 @@
+body
+{
+	background: #00FFA0;
+	color: green;
+}
+
+/*
+ * default for all divs is a background of grey
+ */
+div
+{
+	background: #145214;
+	color: black;
+}
+
+/*
+ * All pieces using #96967E
+ */ 
+div#credit, div#sort, div#about
+{
+	color: #96967E;
+}
+
+div#credit a, div#sort a
+{
+	color: #96967E;
+	border-bottom: 1px dotted #96967E;
+}
+
+.albumdesc small
+{
+	color: #96967E;
+}
+
+/*
+ * All pieces using #ADEBAD
+ */ 
+div#credit a:hover, div#sort a:hover
+{
+	color: #ADEBAD;
+	border-bottom: 1px solid #ADEBAD;
+}
+
+#image, .imagethumb, .albumdesc, #padbox, #admin_data, #archive, #tag_cloud, #narrow, #about
+{
+	background: #ADEBAD;
+}
+
+.albumdesc a
+{
+	color: grey;
+}
+div#searchimages, div#images, div.albumdesctitle, div.gallerydesctitle, table.register_user, div#slideshowpage
+{
+	color: #ADEBAD;
+}
+
+.imgnav .imgprevious a:hover, .imgnav .imgnext a:hover, #contactform
+{
+	background-color: #ADEBAD;
+	color: #002E5B;
+}
+
+div#archive a, div#archive p, div#tag_cloud, div#tag_cloud p
+{
+	color: grey;
+}
+
+div#contactform
+{
+	font-size: 12pt;
+}
+div#contactform p
+{
+	font-style: italic;
+	font-size: 16pt;
+}
+
+#padbox span
+{
+	color: #FF3030;
+}
+
+div#gallerytitle h2
+{
+	border-bottom: 2px solid #E6E6DF;
+}
+
+/* Page Navigation
+------------------------------ */
+ul.pagelist li.current a
+{
+	color: #5A5A4B;
+}
+
+.disabledlink
+{
+	color: #ddd;
+}
+
+#admin a, #logout a, .rsslink a, #loginbtn a, #slideshowlink a
+{
+	color: black;
+}
+#admin a:hover, #logout a:hover, .rsslink a:hover, #loginbtn a:hover
+{
+	color: grey;
+}
+
+#search ul
+{
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+/* Tags
+------------------------------ */
+.taglist ul li
+{
+	color: #999999;
+}
+
+/* Image Thumbnails
+------------------------------ */
+.imagethumb a, .imagethumb a:hover
+{
+	border: 1px solid #e6e6e6;
+	background-color: #f6f6f6;
+}
+.imagethumb a:visited
+{
+	background-color: #fcfcfc;
+	border: 1px solid #f8f8f8;
+}
+.imagethumb a:hover
+{
+	background-color: #f3f3f3;
+	border: 1px solid #cccccc;
+}
+.imagetitle
+{
+	color: grey;
+}
+
+/* Album Thumbnails
+------------------------------ */
+.album a img
+{
+	border: 1px solid black;
+}
+
+/* Individual Image
+------------------------------ */
+.image
+{
+	color: #F0F0F0;
+}
+
+.imgnav .imgprevious a, .imgnav .imgnext a
+{
+	color: #237898;
+}
+#narrow, #m404
+{
+	border: 1px solid black;
+  	box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.7);
+  	-moz-box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.7);
+  	-o-box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.7);
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.7);
+}
+
+/* -------------- colors -------------- */
+
+.button.colored, .ledge.colored, .link.colored, .albumdesc.ledge.light {
+	color: 				hsl(158, 100%, 75%) !important;
+	background-color: 	hsl(158, 100%, 41.5%);
+
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(0, 0%, 15%) 0 .1em 3px, hsl(0, 0%, 5%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(0, 0%, 15%) 0 .1em 3px, hsl(0, 0%, 5%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-o-box-shadow: 		inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(0, 0%, 15%) 0 .1em 3px, hsl(0, 0%, 5%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(0, 0%, 15%) 0 .1em 3px, hsl(0, 0%, 5%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+
+.albumdesc.colored, .ledge.light, .link.light {
+	color: 				hsl(158, 100%, 55%) !important;
+	background-color: 	hsl(158, 100%, 35%);
+
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(158, 100%, 30%) 0 .1em 3px, hsl(158, 100%, 20%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(158, 100%, 30%) 0 .1em 3px, hsl(158, 100%, 20%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-o-box-shadow: 		inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(158, 100%, 30%) 0 .1em 3px, hsl(158, 100%, 20%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(158, 100%, 30%) 0 .1em 3px, hsl(158, 100%, 20%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+
+.albumdesc.colored p
+{
+	color: #002E5B;
+}
+
+/* Only change the cover of buttons and not ledges on hover */
+.button.colored:hover { 	background-color: hsl(158, 80%, 55%); }
+.button.light:hover { 	background-color: hsl(158, 80%, 55%); }
+.link.colored:hover { 	background-color: hsl(158, 80%, 55%); }
+.link.light:hover { 	background-color: hsl(158, 80%, 55%); }
+

@@ -1,0 +1,1186 @@
+html
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	margin: 0px 20px 20px 20px;
+	width: 96%;
+	height: 100%;
+}
+
+.link
+{
+	height: 20px;
+	padding: 5px;
+	margin: 10px;
+	z-index: 2;
+	text-align: center;
+	width: 120px;
+	float: right;
+}
+
+div#credit, div#sort {
+	position: fixed;
+	padding: 0px;
+	padding-top: 10px;
+	bottom: -20px;
+	margin: 20px;
+	font-size: 85%;
+	width: 96%;
+	text-align: right;
+	clear: both;
+}
+#credit a, #sort a {
+	text-decoration: none;
+	margin: 5px;
+}
+#credit a:hover, #sort a:hover {
+	text-decoration: none;
+}
+
+div
+{
+	margin: 20px;
+  	box-shadow: 5px 5px 5px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 50, 0.7);
+}
+
+div#main
+{
+	margin: 20px;
+	height: 100%;
+	top: 1px;
+	width: 98%;
+}
+
+div.errorbox
+{
+	margin: 20px;
+	height: 50px;
+	width: 96%;
+	padding-bottom: 25px;
+}
+div.errorbox h2
+{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-shadow: rgba(255,255,255,.3) 0 1px 0, rgba(0,0,0,0.15) 0 .18em .15em;
+}
+div#padbox
+{
+	margin: 20px;
+	height: 100%;
+	top: 1px;
+	width: 96%;
+}
+div#slideshowlink
+{
+	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+	height: 50px;
+	padding: 0px;
+	margin: 10px;
+	width: 140px;
+	z-index: 2;
+	text-align: center;
+	font-style: italic;
+	float: left;
+}
+div#slideshowpage
+{
+	margin: 20px;
+	padding: 20px;
+	width: 96%;
+	height: 100px;
+}
+div#padbox p
+{
+	margin: 10px;
+}
+div#padbox span
+{
+	font-size: 14pt;
+	font-style: italic;
+}
+
+div#home_link
+{
+	position: relative;
+	top: -5px;
+	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	width: 140px;
+	z-index: 2;
+	text-align: left;
+	float: right;
+}
+div#gallerytitle
+{
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18pt;
+	font-style: italic;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+}
+
+div#gallerytitle h2
+{
+	background: none;
+	height: 30px;
+	font-weight: bold;
+	font-size: 24pt;
+	margin: 0px;
+	padding-bottom: 25px;
+}
+
+div#gallerytitle h2 span.zp_uneditable_album_title,
+div#gallerytitle h2 span.zp_editable_album_title,
+div#gallerytitle h2 span.zp_uneditable_image_title,
+div#gallerytitle h2 span.zp_editable_image_title,
+div#gallerytitle h2.single, div#gallerytitle h2 span, .single
+{
+	margin-left: 5px;
+	line-height: 1.0em;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+span.zp_uneditable_album_title,
+span.zp_editable_album_title,
+span.zp_uneditable_image_title,
+span.zp_editable_image_title,
+span.single
+{
+	vertical-align: 25%;
+}
+div#gallerytitle h2 a
+{
+	margin: 0px;
+	padding: 7px;
+}
+
+div.albumdesctitle, div.gallerydesctitle
+{
+	background: none;
+	text-shadow: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	padding-top: 10px;
+	margin: 15px 5px 5px 0px;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+}
+
+/* Page Navigation
+------------------------------ */
+div.pagelist
+{
+	width: 96%;
+}
+ul.pagelist
+{
+	clear: both;
+	padding: 0;
+	margin: 20px 0 0 0;
+	list-style-type: none;
+}
+
+ul.pagelist li
+{
+	display: inline;
+}
+
+ul.pagelist li a, ul.pagelist span.disabledlink
+{
+	padding: 4px;
+}
+
+ul.pagelist li.current a
+{
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+ul.pagelist li.prev
+{
+	margin-right: 10px;
+}
+
+ul.pagelist li.next
+{
+	margin-left: 10px;
+}
+
+.disabledlink
+{
+	cursor: default;
+}
+
+.pagenav
+{
+	clear: both;
+}
+
+.disabled_nav
+{
+	visibility: hidden;
+}
+
+/*
+ * Toolbox settings
+ */
+ div#toolbox
+ {
+ 	padding: 0px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+	position: fixed;
+	bottom: 15px;
+	height: 60px;
+	width: 96%;
+	margin-left: 20px;
+	margin-bottom: 25px;
+ }
+
+/* Admin Toolbox
+------------------------------ */
+#admin, #admin_data, #rss, #colorselection
+{
+	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+	height: 50px;
+	padding: 0px;
+	margin: 10px;
+	width: 140px;
+	z-index: 2;
+	text-align: left;
+	float: left;
+}
+#colorselection
+{
+	width: 220px;
+}
+#colorselection input.pushbutton
+{
+	position: relative;
+	top: -5px;
+	padding: 0 5px 0 5px;
+	margin: 0px;
+	float: right;
+	font-size: 80%;
+}
+
+#rss
+{
+	float: right;
+}
+#admin_data
+{
+	height: auto;
+	width: 120px;
+	position: fixed;
+	left: 35px;
+	bottom: 65px;
+	padding-bottom: 10px;
+	z-index: 200;
+	line-height: 1.6em;
+	font-size: 12pt;
+}
+#admin h3, #rss h3, #home_link h3
+{
+	margin:0;
+	padding: 0px;
+	text-align: center;
+}
+#admin a, #rss a, #logout a, #loginbtn a, .link a, #slideshowlink a, #colorselection a, #home_link a
+{
+	font-size: 12pt;
+	text-decoration: none;
+}
+#admin_data ul
+{
+	margin: 8px;
+	padding: 0px;
+}
+#admin_data a
+{
+	font-size:  10pt;
+}
+#admin_data a:hover, #slideshowlink a:hover, #colorselection a:hover, #home_link a:hover
+{
+	font-size: 12pt;
+}
+ /* Search Box
+------------------------------ */
+div#search
+{
+	width: 260px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+	text-align: left;
+	z-index: 10;
+}
+form#search_form
+{
+	padding: 0px;
+	margin-left: 15px;
+	line-height: 2em;
+	z-index: 200;
+}
+#search input.pushbutton {
+	font-size: 80%;
+}
+#search a {
+	text-decoration: none;
+}
+#search ul {
+position:absolute; text-align:left; list-style: none; bottom: 15px;
+height: 8em; width: 20em; overflow: auto;
+}
+
+#searchfields_icon {
+position: relative;
+top: 4px;
+}
+ 
+
+/*
+ * archive page
+ */
+#archivebox
+{
+	margin: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 98%;
+}
+#archive
+{
+	padding: 10px;
+	width: 98%;
+}
+
+#archive p
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 16pt;
+	font-style: italic;
+}
+
+div#archive ul {
+	display: inline;
+	list-style-type: none;
+}
+div#archive ul li
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 12pt;
+}
+
+/* Tags
+------------------------------ */
+#tag_cloud
+{
+	padding: 10px;
+	width: 98%;
+}
+
+#tag_cloud p
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 16pt;
+	font-style: italic;
+}
+
+div#tag_cloud ul {
+	display: inline;
+	list-style-type: none;
+}
+div#tag_cloud ul li
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 12pt;
+}
+div#tag_image
+{
+	float: left;
+}
+.taglist, .tags_title {
+	background: none;
+	padding-right: 5px;
+	padding-left: 0;
+	font-style: italic;
+	float: left;
+}
+
+ul.taglist {
+	font-size: 12pt;
+	display: inline;
+	list-style-type: none;
+}
+
+ul.taglist li {
+	background: url(../images/tag.png) no-repeat left center;
+	list-style-type: none;
+	padding-left: 18px;
+	float:left;
+	overflow: hidden;
+	padding-right: 5px;
+	display: inline;
+	list-style-type: none;
+}
+
+/* Image Thumbnails
+------------------------------ */
+.imagethumb a, .imagethumb a:hover {
+	display: block;
+	padding: 9px;
+	margin: 9px;
+	line-height: 0px;
+}
+.imagethumb a:visited {
+		border: 1px solid #f8f8f8;
+}
+.imagethumb a:hover {
+	border: 1px solid #cccccc;
+}
+.imagethumb {
+	float: left;
+	width: 120px;
+}
+.imagetitle
+{
+	margin-top: 0px;
+	margin-bottom: 3px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: center;
+	width: 70%;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+	overflow: hidden;
+	background: none;
+}
+.albumdesc2 {
+	line-height: 18px;
+}
+
+
+/* Album Thumbnails
+------------------------------ */
+#albums {
+	background: none;
+	z-index: 1;
+	float: left;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	width: 98%;
+  	margin-left: 20px;
+  	margin-right: 20px;
+}
+#searchalbums {
+	z-index: 1;
+	float: left;
+	padding: 0px;
+	margin-left: 35px;
+	height: 80%;
+	width: 96%;
+}
+.album {
+	z-index: 2;
+	margin: 0px 12px 8px 0px;
+	padding: 0px 8px 2px 10px;
+	float: left;
+	width: 300px;
+	height: 210px;
+	line-height: 100%;
+}
+.album a img {  border: 1px solid black;}
+.album .thumb {
+	background: none;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+	z-index: 3;
+	float: left;
+	width: 90%;
+	margin-top: 0px;
+	margin-right: 6px;
+	padding: 4px;
+}
+
+.album h3 {
+	padding: 0;
+	margin: 0;
+	width: 90%;
+}
+.album p {
+	line-height: 12px;
+	font-size: 11px;
+	padding: 4px 0px 0px;
+	margin: 0px;
+}
+.albumdesc
+{
+	padding: 0px;
+	z-index: 4;
+	width: 90%;
+	height: 180px;
+}
+
+.albumdesc a
+{
+	text-decoration: none;
+}
+.albumdesc small
+{
+	font-style: bold;
+	z-index: 4;
+	padding: 4px;
+	height: 20px;
+	text-shadow: none;
+}
+.albumdesc h3
+{
+	padding: 4px;
+}
+.albumdesc p
+{
+	margin-top: 12px;
+	padding: 0px;
+	width: 140px;
+	float: right;
+	position: relative;
+	top: -140px;
+	text-shadow: none;
+}
+
+/* Individual Image
+------------------------------ */
+.image {
+	margin: 0;
+	padding: 0px;
+	border: 0px;
+}
+
+/*
+  for the actual individual image page
+*/
+#image {
+	clear: both;
+	text-align: center;
+	line-height: 0;
+	margin-left: 20px;
+	width: 98%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#image img
+{
+	position: relative;
+	left: -20px; /* subtracting the 20 px margin for the #image div */
+	margin: 0px;
+  	box-shadow: 0px 0px 3px 3px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 3px 3px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 50, 0.7);
+	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+}
+
+#searchimages
+{
+	z-index: 1;
+	text-align: center;
+	padding: 0px;
+	margin-left: 35px;
+	height: 80%;
+	width: 96%;
+	float: left;
+}
+#images
+{
+	z-index: 1;
+	text-align: center;
+	padding: 0px;
+	height: 80%;
+	width: 100%;
+	float: left;
+  	margin-left: 20px;
+  	margin-right: 20px;
+}
+
+.imgnav
+{
+	float: right;
+	width: 120px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 12pt;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+	background: none;
+}
+div#exif_link
+{
+	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+	height: 50px;
+	padding: 0px;
+	padding-right: 10px;
+	margin: 20px;
+	width: 140px;
+	z-index: 2;
+	text-align: left;
+	float: right;
+	height: 100%;
+}
+div#exif_link a
+{
+	padding: 10px;
+}
+#imageinfo
+{
+	margin: 0px;
+	font-size: 12pt;
+	display: none;
+	z-index: 200;
+	width: 440px;
+}
+.metadata_title
+{
+	padding: 0px;
+	margin-left: 20px;
+	font-size: 16pt;
+	font-style: bold;
+	text-shadow: none;
+	text-align: center;
+	padding-top: 5px;
+}
+#imagemetadata
+{
+	padding: 0px;
+	margin: 0px;
+}
+#imagemetadata_data
+{
+	clear: both;
+	padding: 5px;
+	font-size: 12pt;
+	text-shadow: none;
+	width: 100%;
+}
+
+td.label
+{
+	border-bottom: 1px solid black;
+	text-align: left;
+	font-style: bold;
+	padding: 5px;
+}
+td.value
+{
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-style: italic;
+	padding: 5px;
+	width: 200px;
+}
+.imgprevious, .imgnext
+{
+	margin: 3px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+.imgnav .imgprevious a, .imgnav .imgnext a {
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+.imgnav .imgprevious a:hover, .imgnav .imgnext a:hover {
+	border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+  	box-shadow: 3px 3px 3px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 50, 0.7);
+	text-decoration: none;
+}
+.imgnav .imgprevious a {
+	float: left;
+	margin-left: 4px;
+}
+.imgnav .imgnext a {
+	margin-top: -2px;
+	float: right;
+}
+
+#narrow, #m404
+{
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+#narrow hr
+{
+	margin: 4px;
+}
+
+div#contactform
+{
+	margin: 20px;
+	width: 98%;
+}
+
+div#about
+{
+	padding: 20px;
+	margin: 20px;
+	width: 50%;
+	left: 25%;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+/* login form */
+div#logout, div#login, div#loginbtn
+{
+	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+	height: 50px;
+	padding: 0px;
+	margin: 10px;
+	width: 140px;
+	z-index: 2;
+	text-align: left;
+	float: left;
+}
+
+div#login
+{
+	display: none;
+	width: 475px;
+	height: 120px;
+}
+
+fieldset#logon_box
+{
+	float: left;
+	margin: 3px;
+	padding: 0px;
+	border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+}
+div#passwordform, div.passwordform, div#loginform, div.buttons
+{
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-moz-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 50, 0.7);
+  	margin-top: 5px;
+  	margin-left: 2px;
+}
+
+div.buttons button
+{
+	margin-top: 20px;
+}
+div#loginform form
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+table.password td.userlabel{
+	text-align:right;
+}
+table.password td.userinput{
+	text-align:left;
+}
+
+table.password td.userinput input, td.passwordinput input {
+	width: 15em;
+}
+
+table.password td.passwordlabel{
+	text-align:right;
+}
+
+table.password td.passwordinput{
+	text-align:left;
+}
+
+table.password td.submit{
+	text-align:center;
+}
+
+table.password td.hint{
+	text-align:left;
+}
+fieldset#logon_box legend
+{
+	display: none;
+}
+fieldset#logon_box table
+{
+	font-size: 8pt;
+	font-style: italic;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	padding: 0px;
+}
+
+.textobject {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left !important;
+	text-decoration: none !important;
+	overflow:scroll !important;
+}
+table.register_user
+{
+	font-style: italic;
+	font-size: 12pt;
+}
+table.register_user td
+{
+	width: 100px;
+}
+/*------------------------------------------*/
+/* From http://lab.simurai.com/css/buttons/ */
+/*------------------------------------------*/
+
+/* -------------- THE button -------------- */
+.button
+{
+	z-index: 10;
+}
+
+.button, .ledge, .link {
+
+/* text */
+	text-decoration: 		none;
+	font: 					24px/1em 'Droid Sans', sans-serif;
+	font-weight: 			bold;
+	text-shadow: 			rgba(255,255,255,.5) 0 1px 0;
+	-webkit-user-select: 	none;
+	-moz-user-select: 		none;
+	user-select: 			none;
+	
+	
+/* layout */
+	padding: 				.5em .6em .4em .6em;
+	margin: 				.5em;
+	display: 				inline-block;
+	position: 				relative;
+	
+	-webkit-border-radius: 	8px;
+	-moz-border-radius: 	8px;
+	border-radius: 	8px;
+	
+/* effects */
+	border-top: 		1px solid rgba(255,255,255,0.8);
+	border-bottom: 		1px solid rgba(0,0,0,0.1);
+	
+	background-image: 	-webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )), url(noise.png);
+	background-image: 	-webkit-radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%), url(noise.png);
+	background-image: 	-moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%), url(noise.png);
+	background-image: 	-o-radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%), url(noise.png);
+	background-image: 	radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%), url(noise.png);
+	background-image: 	gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )), url(noise.png);
+
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: 	background .2s ease-in-out;
+	transition: 		background .2s ease-in-out;
+	
+/* color */
+	color: 				hsl(0, 0%, 40%) !important;
+	background-color: 	hsl(0, 0%, 75%);
+	
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+
+/* -------------- button (tag) -------------- */
+
+/*button.button {
+	border-left: none;
+	border-right: none;
+}
+button.button:hover, button.link:hover {
+	cursor: pointer;
+}*/
+
+
+/* -------------- icon -------------- */
+.button:before, .ledge:before, .link:before
+	font: 			1.2em/0 'Pictos', sans-serif;
+	content: 		attr(data-icon); /* gets the icon value from the custom data attribute and puts it infront of the button label */
+	margin-right: 	0.4em;
+}
+
+/* icon only */
+.icon {
+	font-weight: normal;
+	font-style: normal;
+	text-indent: 	-999em;
+}
+.icon:before
+{ 
+	margin-right: 	0;
+	display: 		block;
+	height: 		0;
+	text-indent: 	0px;	
+}
+
+.button.transparent, .ledge.transparent, .link.transparent {
+	color: 	rgba(0,0,0,0.5) !important;
+}
+
+.button.transparent, .button.transparent:hover, .button.transparent:active,
+.ledge.transparent, .ledge.transparent:active {
+	background-color: transparent;
+	background-image: none;
+}
+
+.button.transparent:hover,
+.ledge.transparent:hover {
+	opacity: .9;
+}
+
+
+/* -------------- States -------------- */
+.button:hover, .link:hover {
+	background-color: 	hsl(0, 0%, 83%);
+}
+
+.button:active {
+	background-image: 	-webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) )), url(noise.png);
+	background-image: 	-moz-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) )), url(noise.png);
+	background-image: 	gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) )), url(noise.png);
+	background-image: 	-webkit-radial-gradient(top, ellipse cover, rgba(255,255,255,0), rgba(255,255,255,0)), url(noise.png);
+	background-image: 	-moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0), rgba(255,255,255,0)), url(noise.png);
+	background-image: 	-o-radial-gradient(top, ellipse cover, rgba(255,255,255,0), rgba(255,255,255,0)), url(noise.png);
+
+	-webkit-box-shadow: inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-o-box-shadow: 		inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: 		inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(.2em);
+	-moz-transform: 	translateY(.2em);
+	transform: 			translateY(.2em);
+}
+
+.button:focus, .link:focus {
+	outline: none;
+	color: rgba(254,255,255,0.9) !important;
+	text-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover,
+.ledge[disabled], .ledge.disabled  {
+	opacity: 			.5;
+	cursor: 			default;
+	color: 				rgba(0,0,0,0.2) !important;
+	text-shadow: 		none !important;
+	background-color: 	rgba(0,0,0,0.05);
+	background-image: 	none;
+	border-top: 		none;
+
+	-webkit-box-shadow: inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-o-box-shadow: 		inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: 		inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(5px);
+	-moz-transform: 	translateY(5px);
+	-o-transform: 		translateY(5px);
+	transform: 			translateY(5px);
+}
+
+/* -------------- Materials -------------- */
+
+.button.glossy:after, .button.glass:after, .link.glossy:after
+{
+	content: 	"";
+	position: 	absolute; 
+    width: 		90%;
+    height: 	60%;
+    top: 		0;
+    left: 		5%;    
+    
+    -webkit-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;    
+    -moz-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;
+    -o-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;
+	border-radius: 			.5em .5em 1em 1em / .5em .5em 2em 2em;
+    
+    background-image: 		-webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );	
+    background-image: 		-moz-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) );	
+    background-image: 		-o-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) );	
+	background-image: 		gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );	
+}
+
+.ledge.glossy:after, .ledge.glass:after
+{
+	content: 	"";
+	position: 	absolute; 
+    width: 		99%;
+    height: 	85%;
+    top: 		1px;
+    left: 		8px;    
+    
+    -webkit-border-radius: 	.5em .5em 1em 1em / .9em .9em 2em 2em;    
+    -moz-border-radius: 	.5em .5em 1em 1em / .9em .9em 2em 2em;
+    border-radius: 			.5em .5em 1em 1em / .9em .9em 2em 2em;
+    
+    background-image: 		-webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.01) ), to( rgba(255,255,255,.01) ),
+    							color-stop(.25, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );	
+	background-image: 		-moz-linear-gradient(left, rgba(255,255,255,.01), rgba(255,255,255,0) 25%, rgba(255,255,255,0) 80%, rgba(255,255,255,.01) );	
+    background-image: 		gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.01) ), to( rgba(255,255,255,.01) ),
+    							color-stop(.25, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );	
+}
+
+
+.button.glossy:active:after, .link.glossy:active:after,
+.button.glass:active:after, .button.disabled:after,
+.button[disabled]:after, .ledge.glossy:active:after,
+.ledge.glass:active:after, .ledge.disabled:after,
+.ledge[disabled]:after
+{
+	opacity: .6;
+}
+
+.button.icon.glossy:after,
+.link.icon.glossy:after,
+.button.icon.glass:after { height: 75% ; }
+
+/* -------------- Glass + Transparent -------------- */
+.button.glass,
+.ledge.glass {
+	text-shadow: rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,0.18) 0 .18em .15em;
+}
+.button.glass:active,
+.link.glass:active,
+.ledge.glass:active {
+	text-shadow: rgba(255,255,255,.3) 0 1px 0, rgba(0,0,0,0.15) 0 .18em .15em;
+}
+
+.albumdesc
+{
+	margin: 0px;
+}
+.albumdesc a:hover
+{
+	font-style: italic;
+}
+.link
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+	line-height: 3em;
+}
+.title
+{
+	overflow: hidden;
+	width: 140px;
+	height: 30px;
+	line-height: 1.5em;
+	float: none;
+}
+
+#colorselectionform
+{
+	margin: 15px;
+	z-index: 200;
+}
+#themeselect_colors
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	float: left;
+	height: 1.5em;
+}
